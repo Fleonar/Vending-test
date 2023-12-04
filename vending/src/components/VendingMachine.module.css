@@ -1,0 +1,37 @@
+.vending {
+    background-color: #494949;
+}
+.panel {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+h3 {
+    background-color: #646C77;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #A9B1BC;
+    margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .panel {
+        width: 38%;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .panel {
+        margin-top: 0.8rem;
+    }
+}
+@media screen and (max-width: 540px) {
+    .panel {
+        width: 100%;
+    }
+}

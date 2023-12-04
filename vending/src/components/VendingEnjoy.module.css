@@ -1,0 +1,40 @@
+.done {
+    border: 1px solid black;
+    border-radius: 6px;;
+    width: 59%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .window {
+    height: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.window span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #606060;
+}
+.done button {
+    border: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #af4343;
+    cursor: pointer;
+    text-transform: uppercase;
+}

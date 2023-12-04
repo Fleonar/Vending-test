@@ -1,0 +1,87 @@
+.keys {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #646C77;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}
+.keys h3 {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.display {
+    width: 100%;
+    height: 53px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+.keys.disabled {
+    background-color: #ccc;
+}
+.keys.disabled h3 {
+    color: #fff;
+    background-color: #CCCCCC;
+}
+.keys span {
+    padding: 10px;
+    width: 8%;
+    max-width: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #f0f0f0;
+    margin-top: 0.5rem;
+}
+.keys span:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+.keys.disabled span {
+    background-color: #ccc;
+}
+.keys.enabled span {
+    background-color: #A9B1BC;
+    color: #ffffff;
+}
+.keys.enabled .display {
+    background-color: #4FC0E8;
+}
+.keys.disabled .display {
+    color: #f0f0f0;
+}
+
+@media screen and (max-width: 1400px) {
+    .keys {
+        justify-content: flex-end;
+    }
+    .keys span {
+        width: 15%;
+        margin-left: 2%;
+        max-width: none;
+    }
+    .keys span:first-of-type {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .keys {
+        margin-top: 0.8rem;
+    }
+    .keys span {
+        padding: 0;
+    }
+}

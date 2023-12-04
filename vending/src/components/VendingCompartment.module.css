@@ -1,0 +1,33 @@
+.vending {
+    width: 59%;
+    background-color: #2b2b2b;
+    /* border: 1px solid #000000; */
+    border-radius: 6px;
+    padding: 1rem;
+    padding-top: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .vending {
+        width: 60%;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .vending {
+        margin-top: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .vending {
+        width: 100%;
+    }
+}
